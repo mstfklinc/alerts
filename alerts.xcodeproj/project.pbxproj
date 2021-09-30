@@ -18,6 +18,7 @@
 		FA68ADC12705A92900BF7A51 /* alertsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA68ADC02705A92900BF7A51 /* alertsTests.m */; };
 		FA68ADCB2705A92900BF7A51 /* alertsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA68ADCA2705A92900BF7A51 /* alertsUITests.m */; };
 		FA68ADCD2705A92900BF7A51 /* alertsUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA68ADCC2705A92900BF7A51 /* alertsUITestsLaunchTests.m */; };
+		FA68ADDB2705B14700BF7A51 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA68ADDA2705B14700BF7A51 /* UserNotifications.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		FA68ADC62705A92900BF7A51 /* alertsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = alertsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA68ADCA2705A92900BF7A51 /* alertsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = alertsUITests.m; sourceTree = "<group>"; };
 		FA68ADCC2705A92900BF7A51 /* alertsUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = alertsUITestsLaunchTests.m; sourceTree = "<group>"; };
+		FA68ADDA2705B14700BF7A51 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA68ADDB2705B14700BF7A51 /* UserNotifications.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +93,7 @@
 				FA68ADBF2705A92900BF7A51 /* alertsTests */,
 				FA68ADC92705A92900BF7A51 /* alertsUITests */,
 				FA68AD9F2705A92400BF7A51 /* Products */,
+				FA68ADD92705B14700BF7A51 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -137,6 +141,14 @@
 				FA68ADCC2705A92900BF7A51 /* alertsUITestsLaunchTests.m */,
 			);
 			path = alertsUITests;
+			sourceTree = "<group>";
+		};
+		FA68ADD92705B14700BF7A51 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA68ADDA2705B14700BF7A51 /* UserNotifications.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
